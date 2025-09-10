@@ -66,7 +66,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
 
-  /* KEEP ALL CUSTOM LAYERS ABOVE THIS IN ORDER TO STILL HAVE ACCESS TO LOWER, UPPER, AND MENU */
+  /*
+      KEEP ALL CUSTOM LAYERS ABOVE THIS IN ORDER TO STILL HAVE ACCESS TO LOWER, UPPER, AND MENU.
+      Double check k1/config.h to make sure the LWR, UPR, and MENU keys are numbered properly.
+  */
   
   /* Fn keys, Delete, media keys */
   [LWR] = LAYOUT(
