@@ -3,13 +3,14 @@
 
 #include QMK_KEYBOARD_H
 
+// Make sure these are ordered properly
 enum custom_layers {
      CDH,
 	 QWRT,
+    WASD,
      LWR,
      UPR,
-	 MENU,
-	 WASD
+	 MENU
 };
 
 /*
