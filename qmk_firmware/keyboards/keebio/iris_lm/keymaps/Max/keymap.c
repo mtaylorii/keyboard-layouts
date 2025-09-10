@@ -65,6 +65,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                     TL_LOWR, KC_BSPC, KC_SPC,                    XXXXXXX, XXXXXXX, TL_UPPR
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
+
+  /* KEEP ALL CUSTOM LAYERS ABOVE THIS IN ORDER TO STILL HAVE ACCESS TO LOWER, UPPER, AND MENU */
   
   /* Fn keys, Delete, media keys */
   [LWR] = LAYOUT(
@@ -86,11 +88,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                            XXXXXXX, XXXXXXX, KC_PGUP, KC_LBRC, KC_RBRC, XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     XXXXXXX, XXXXXXX, KC_P7,   KC_P8,   KC_P9,   XXXXXXX,                            XXXXXXX, KC_HOME, KC_UP,   KC_END,  XXXXXXX, XXXXXXX,
+     XXXXXXX, XXXXXXX, KC_7,    KC_8,    KC_9,    XXXXXXX,                            XXXXXXX, KC_HOME, KC_UP,   KC_END,  XXXXXXX, XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     XXXXXXX, XXXXXXX, KC_P4,   KC_P5,   KC_P6,   XXXXXXX,                            XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
+     XXXXXXX, XXXXXXX, KC_4,    KC_5,    KC_6,    XXXXXXX,                            XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LGUI, KC_P0,   KC_P1,   KC_P2,   KC_P3,   XXXXXXX, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, XXXXXXX, XXXXXXX, XXXXXXX,
+     KC_LGUI, KC_0,    KC_1,    KC_2,    KC_3,    XXXXXXX, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, XXXXXXX, XXXXXXX, XXXXXXX,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     TL_LOWR, KC_LCTL, LSFT_T(KC_ENT),            XXXXXXX, XXXXXXX, TL_UPPR
                                 // └────────┴────────┴────────┘                 └────────┴────────┴───/────┘
@@ -113,7 +115,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                 // └───/────┴────────┴────────┘                 └────────┴────────┴───/────┘
   )
   
-  // END OF LAYERS. ADD A COMMA TO THE ABOVE LAYER IF YOU ADD ONE BELOW IT
+  /* END OF LAYERS. ADD A COMMA TO THE ABOVE LAYER IF YOU ADD ONE BELOW IT */
   
   // [_LOWER_OLD] = LAYOUT( //Old lower layout
   // //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
@@ -156,7 +158,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     // TL_LOWR, XXXXXXX, XXXXXXX,                   XXXXXXX, XXXXXXX, TL_UPPR
                                 // // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
-  // )
+  // ),
 };
 
 
