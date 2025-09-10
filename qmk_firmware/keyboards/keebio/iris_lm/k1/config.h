@@ -31,3 +31,5 @@
 #define TRI_LAYER_LOWER_LAYER 3 //layer for quick-access to various things when holding the left-hand layer button (LOWER)
 #define TRI_LAYER_UPPER_LAYER 4 //layer for quick-access to various things when holding the right-hand layer button (UPPER)
 #define TRI_LAYER_ADJUST_LAYER 5 //layer "menu" to switch the keyboard to a different layer other than the default COLEMAK-DH; entered by holding LOWER and UPPER
+
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_TYPING_HEATMAP
