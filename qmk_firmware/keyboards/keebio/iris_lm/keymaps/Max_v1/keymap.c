@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                 // └───/────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
   
-  /* Square/curly brackets, arrow/direction keys, numpad */
+  /* Square/curly brackets, arrow/direction keys, basic numpad */
   [UPR] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                            XXXXXXX, XXXXXXX, KC_PGUP, KC_LBRC, KC_RBRC, XXXXXXX,
@@ -98,18 +98,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                 // └───/────┴────────┴────────┘                 └────────┴────────┴───/────┘
   ),
   
-  /* Used to emulate a typical QWERTY layout, but just for gaming */
+  /* Used to emulate a typical QWERTY layout that's only used for gaming, but shifted over one column so I don't have to move my left hand */
   [WASD] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     KC_ESC,  XXXXXXX, KC_1,    KC_2,   KC_3,     KC_4,                               XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+     KC_ESC,  XXXXXXX, KC_1,    KC_2,   KC_3,     KC_4,                               KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     XXXXXXX, KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,                               XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+     XXXXXXX, KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,                               KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     XXXXXXX, KC_LSFT, KC_A,    KC_S,    KC_D,    KC_F,                               XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+     XXXXXXX, KC_LSFT, KC_A,    KC_S,    KC_D,    KC_F,                               KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     XXXXXXX, KC_LCTL, KC_Z,    KC_X,    KC_C,    KC_V,    XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+     XXXXXXX, KC_LCTL, KC_Z,    KC_X,    KC_C,    KC_V,    XXXXXXX,          XXXXXXX, KC_B,    KC_N,    KC_M,    XXXXXXX, XXXXXXX, XXXXXXX,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                    TL_LOWR, XXXXXXX, KC_SPC,                    XXXXXXX, XXXXXXX, TL_UPPR
+                                    TL_LOWR, KC_BSPC, KC_SPC,                    XXXXXXX, XXXXXXX, TL_UPPR
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   )
   
