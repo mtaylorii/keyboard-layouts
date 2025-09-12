@@ -31,9 +31,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_TAB,  KC_A,    KC_R,    KC_S,    KC_T,    KC_G,                               KC_M,    KC_N,    KC_E,    KC_I,    KC_O,    KC_QUOT,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LGUI, KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,    KC_HOME,          KC_END,  KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH, KC_RALT,
+     KC_LGUI, KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,    KC_LALT,          KC_END,  KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                    TL_LOWR, KC_LCTL, LSFT_T(KC_ENT),            KC_SPC,  KC_BSPC, TL_UPPR
+                                    TL_LOWR, KC_LCTL, KC_LSFT,                   KC_SPC,  KC_BSPC, TL_UPPR
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
   
@@ -61,7 +61,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      XXXXXXX, KC_LSFT, KC_A,    KC_S,    KC_D,    KC_F,                               KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     XXXXXXX, KC_LCTL, KC_Z,    KC_X,    KC_C,    KC_V,    XXXXXXX,          XXXXXXX, KC_B,    KC_N,    KC_M,    XXXXXXX, XXXXXXX, XXXXXXX,
+     XXXXXXX, KC_LCTL, KC_Z,    KC_X,    KC_C,    KC_V,    KC_LALT,          XXXXXXX, KC_B,    KC_N,    KC_M,    XXXXXXX, XXXXXXX, XXXXXXX,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     TL_LOWR, KC_BSPC, KC_SPC,                    XXXXXXX, XXXXXXX, TL_UPPR
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
@@ -94,11 +94,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      XXXXXXX, XXXXXXX, KC_7,    KC_8,    KC_9,    XXXXXXX,                            XXXXXXX, KC_HOME, KC_UP,   KC_END,  XXXXXXX, XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     XXXXXXX, XXXXXXX, KC_4,    KC_5,    KC_6,    XXXXXXX,                            XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
+     KC_TAB,  XXXXXXX, KC_4,    KC_5,    KC_6,    XXXXXXX,                            XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LGUI, KC_0,    KC_1,    KC_2,    KC_3,    XXXXXXX, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, XXXXXXX, XXXXXXX, XXXXXXX,
+     KC_LGUI, KC_0,    KC_1,    KC_2,    KC_3,    XXXXXXX, KC_LALT,          XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, XXXXXXX, XXXXXXX, XXXXXXX,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                    TL_LOWR, KC_LCTL, LSFT_T(KC_ENT),            XXXXXXX, XXXXXXX, TL_UPPR
+                                    TL_LOWR, KC_LCTL, KC_LSFT,                   XXXXXXX, XXXXXXX, TL_UPPR
                                 // └────────┴────────┴────────┘                 └────────┴────────┴───/────┘
   ),
   
