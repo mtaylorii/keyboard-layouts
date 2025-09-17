@@ -34,4 +34,4 @@
 #define TRI_LAYER_ADJUST_LAYER 5 //layer "menu" to switch the keyboard to a different layer other than the default COLEMAK-DH; entered by holding LOWER and UPPER
 
 /* Default RGB mode */
-#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_TYPING_HEATMAP
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_CYCLE_OUT_IN
